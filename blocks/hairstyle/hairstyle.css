@@ -1,0 +1,12 @@
+.hairstyle {
+    /* display: flex; */
+    width: 99vw;
+    /* border: 1px solid red; */
+    background-image: url(../../images/hairstyle_img.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-bottom: 20px;
+}

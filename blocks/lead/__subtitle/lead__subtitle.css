@@ -1,0 +1,30 @@
+.lead__subtitle {
+    font-size: 80px;
+    line-height: 100px;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    margin: 0px 0px 0px;
+    max-width: 1800px;
+    width: 100%;
+    padding: 20px 0 20px;
+    
+}
+
+
+@media screen and (max-width: 1124px){
+    .lead__subtitle {
+       margin-bottom:28px;
+    }
+ }
+
+@media screen and (max-width: 700px) {
+    .lead__subtitle {
+        max-width: 288px;
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 400;
+        margin-top: 8px;
+        margin-bottom:20px;
+    }
+ }

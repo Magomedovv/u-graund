@@ -1,0 +1,29 @@
+.massage {
+    position: relative;
+        width: 99vw;
+        /* border: 1px solid red; */
+        background: url(../../images/photo-grid-massage.jpeg) no-repeat center / cover;
+        background-attachment: fixed;
+        /* background-size: 100%; */
+        background-color: black;
+        text-decoration: none;
+        box-sizing: border-box;
+        background-position: center;
+        background-size: cover;
+        z-index: -1;
+        border-radius: 5px;
+        border: 1px solid white;
+}
+
+.massage::before {
+    content: '';
+    background: #2a2c2f;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+   }

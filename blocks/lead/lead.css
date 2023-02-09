@@ -1,0 +1,11 @@
+.lead {
+    font-family: 'Inter', Arial, sans-serif;
+    background-color: rgb(4, 4, 4);
+    color: #E60E81;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-bottom: 20px;
+}

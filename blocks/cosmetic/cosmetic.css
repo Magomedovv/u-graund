@@ -1,0 +1,29 @@
+.cosmetic {
+        position: relative;
+        width: 99vw;
+        border: 1px solid white;
+        background: url(../../images/cosmetic.jpg) no-repeat center / cover;
+        background-attachment: fixed;
+        /* background-size: 100%; */
+        background-color: black;
+        text-decoration: none;
+        box-sizing: border-box;
+        background-position: center;
+        background-size: cover;
+        z-index: -1;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+    
+    .cosmetic::before {
+        content: '';
+        background: #2a2c2f;
+        opacity: 0.4;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        transition: 0.5s;
+       }

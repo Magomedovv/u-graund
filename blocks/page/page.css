@@ -1,0 +1,25 @@
+
+.page {
+background-color: rgb(4, 4, 4);
+color: #fff;
+font-weight: 400;
+width: 99vw;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+margin: 0 auto;
+padding: 0px 0 24px;
+
+}
+
+
+@media screen and (max-width: 340px) {
+  .page {
+    padding: 16px 0 24px;
+  }
+}
+
+
+/** {
+  outline: 1px solid white;
+}
